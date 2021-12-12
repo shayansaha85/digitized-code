@@ -16,3 +16,4 @@ This application will take the count from user, and generate that much of unique
 8. Click on **Download**, and one **serials.zip** file will be downloaded
 9. Extract the zip file, and you will get three folders : **barcodes**, **codes** and **qrcodes**
 10. In **barcodes** you will get all the barcodes, in **qrcodes** you will get all the QR codes and in **codes** you will get a txt file where all the generated unique codes are present.
+11. You can specify the port in the **app.py file**. In the last line, just add arguments ```port=YOUR_PORT_NUMBER```, in the ```app.run()```. For example, if I want my application to run in 5656 port number then I will write ```app.run(port=5656)```
